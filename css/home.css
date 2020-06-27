@@ -1,0 +1,94 @@
+body{
+    background: #58595b;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.principal{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.principal-itens{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: space-between;
+    color: #ff8700;
+    font-size: 25px;
+    align-items: center;
+    margin: 0px;
+}
+.principal-itens h1{
+    font-size: 25px;
+    display: flex;
+    font-weight: bold;
+    justify-content:center;
+    align-items: center;
+}
+.principal p{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    margin: 40px;
+    align-items: center;
+    justify-content:center;
+}
+.tecnologias{
+    font-size:  50px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.tecnologias i{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.circulo{
+    margin-right: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circulo img{
+    display:flex;
+    background-color: #ddd;
+    border-radius: 100%;    
+    height: 50vh;
+    margin-top: 25px;
+    object-fit: cover;
+    width: 75%;
+}
+.circulo h1 {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff8700;
+}
+.circulo h2{ color: white;}
+.circulo h3 { color: white;}
+.sistemas {
+    font-size:  50px;
+    display: flex;
+    padding: 5px;
+    color: white;
+    justify-content: center;
+}
+.sistemas i{
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
