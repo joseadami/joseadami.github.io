@@ -66,8 +66,8 @@ body{
     border-radius: 100%;   
     margin-top: 25px;
     object-fit: cover;
-    width: 75%;
-    max-height: 50vh;
+    min-width: 300px;
+    max-height: 500px;
 }
 .circulo h1 {
     display: flex;
