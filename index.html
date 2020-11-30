@@ -1,62 +1,264 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/global.css">
-    <script src="https://kit.fontawesome.com/86561f8449.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
-</head>
-<body>
-<header class="cabecalho">
-    <h1 href="./home.html"><strong>Portfólio</strong></h1>
-    <nav class="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projetos.html">Projetos</a></li>
-        </ul>
-    </nav>
 
-</header>
-<main class="principal">
-    <div class="principal-itens" >
-        <h1 id="titulo" >Seja bem vindo(a) !</h1>
-        <p> Um jovem apaixonado por tecnologia desde o primeiro contato quando criança, atualmente praticando e aprimorando os conhecimentos nas tecnologias
-            e linguagens de progração Javascript, React, Html, Css. 
-        </p>
-        <h1>Tecnologias já utilizadas</h1>
-        <div class="tecnologias">
-            <i class="devicon-react-original-wordmark colored"></i>
-            <i class="devicon-css3-plain colored"></i>
-            <i class="devicon-html5-plain-wordmark colored"></i>
-            <i class="devicon-gitlab-plain-wordmark colored"></i>
-            <i class="devicon-javascript-plain colored"></i>
-        </div>
-        <h1>Sistemas Operacionais</h1>
-        <div class="sistemas">
-            <i class="devicon-apple-original"></i>
-            <i class="devicon-windows8-original colored"></i>
-        </div>
-    </div>
-    <div class="circulo">
-        <img src="/img/minhafoto.jpeg"/>
-        <h1>Gabriel Adami</h1>
-        <h2>19 Anos</h2>
-        <h3>Estudante de Big Data</h3>
-    </div>
-</main>
-<footer class="footer">
-    <p>&copy Gabriel Adami - Todos os direitos reservados.</p>
-    <div class="icon">
-        <a href="https://www.instagram.com/joseadamii/" class="btn-instagram"><i class="fab fa-instagram fa-lg"></i></a>
-        <a href="https://www.linkedin.com/in/jos%C3%A9-adami-1555a0176/" class="btn-linkedin"><i class="fab fa-linkedin-in fa-lg"></i></a>
-        <a href="https://gitlab.com/joseadami" class="btn-gitlab"><i class="fab fa-gitlab fa-lg"></i></a>
-    </div>
-</footer>
-<script src="./js/text.js"></script>
+<head>
+	<meta charset="utf-8">
+	<title>Portfólio</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
+
+</head>
+
+<body id="top">
+	<header>
+		<div class="row">
+
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+				<div class="logo">
+					<a href="index.html" title="Menu">Menu</a>
+				</div>
+
+				<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll" href="#about" title="">Sobre Mim</a></li>
+						<li><a class="smoothscroll" href="#portfolio" title="">Projetos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<section id="intro">
+
+		<div class="intro-overlay"></div>
+
+		<div class="intro-content">
+			<div class="row">
+
+				<div class="col-twelve">
+
+					<h5>Hello, World.</h5>
+					<h1>I'm Gabriel Adami.</h1>
+
+					<p class="intro-position">
+						<span>Student of Engineering Software</span>
+					</p>
+
+					<a class="button stroke smoothscroll" href="#about" title="">Mais Sobre Mim</a>
+
+				</div>
+
+			</div>
+		</div>
+
+		<ul class="intro-social">
+			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+		</ul>
+
+	</section>
+	<section id="about">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Sobre Mim</h5>
+				<h1>Um pouco sobre mim.</h1>
+
+				<div class="intro-info">
+
+					<img src="images/minhafoto.jpeg" alt="Profile Picture">
+
+					<p class="lead">Um jovem apaixonado por tecnologia desde o primeiro contato quando criança,
+						atualmente praticando e aprimorando os conhecimentos nas tecnologias e linguagens de progração
+						Javascript, React, Html, Css.</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="row about-content">
+
+			<div class="col-six tab-full">
+
+				<h3>Perfil</h3>
+				<ul class="info-list">
+					<li>
+						<strong>NOME:</strong>
+						<span>JOSÉ GABRIEL ADAMI</span>
+					</li>
+					<li>
+						<strong>TRABALHO:</strong>
+						<span>ENGENHEIRO DE SOFTWARE - LIFE SERVIÇOS</span>
+					</li>
+					<li>
+						<strong>SITE:</strong>
+						<span>www.kardswebsite.com</span>
+					</li>
+					<li>
+						<strong>EMAIL:</strong>
+						<span>jose.adami3405@gmail.com</span>
+					</li>
+
+				</ul>
+
+			</div>
+
+			<div class="col-six tab-full">
+
+				<h3>Skills</h3>
+				<ul class="skill-bars">
+					<li>
+						<div class="progress percent75"><span>75%</span></div>
+						<strong>HTML5</strong>
+					</li>
+					<li>
+						<div class="progress percent50"><span>50%</span></div>
+						<strong>CSS3</strong>
+					</li>
+					<li>
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>JAVA SCRIPT</strong>
+					</li>
+					<li>
+						<div class="progress percent40"><span>40%</span></div>
+						<strong>PYTHON</strong>
+					</li>
+					<li>
+
+						<div class="progress percent65"><span>65%</span></div>
+						<strong>REACT NATIVE</strong>
+					</li>
+
+				</ul>
+
+			</div>
+
+		</div>
+
+		<div class="row button-section">
+			<div class="col-twelve">
+				<a href="#" title="Download CV" class="button button-primary">Download CV</a>
+			</div>
+		</div>
+
+	</section>
+
+	<section id="portfolio">
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+
+				<h5>Projetos</h5>
+				<h1>Alguns projetos que já participei.</h1>
+			</div>
+		</div>
+
+		<div class="row portfolio-content">
+
+			<div class="col-twelve">
+				<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/pragas.jpg" alt="coletadedados">
+							<a href="https://gitlab.com/BDAg/coleta-de-dados-meteorologicos-para-prevencao-de-pragas/-/tree/master"
+								class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Coleta de dados meteorológicos</h3>
+										<span class="folio-types">
+											Projeto criado para coleta de dados meteorológicos para prevenção de pragas.
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/comunica.jpg" alt="comunica">
+							<a href="https://gitlab.com/BDAg/comunicacoes-unificadas" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Comunica</h3>
+										<span class="folio-types">
+											Plataforma criada para centralização de informação entre funcioários da
+											mesma empresa.
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="images/skillus.jpg" alt="skillus">
+							<a href="https://gitlab.com/BDAg/skill.us" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Skill.us</h3>
+										<span class="folio-types">
+											Neste projeto foi criado uma plataforma para solução de problemas
+											nafaculdade fatec - Pompéia-SP.
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="bgrid folio-item">
+						<div class="item-wrap">
+							<img src="https://www.sementesoesp.com.br/wp-content/uploads/2019/12/saef_nema.jpg"
+								alt="Beetle">
+							<a href="https://gitlab.com/BDAg/analise-de-nematoides" class="overlay">
+								<div class="folio-item-table">
+									<div class="folio-item-cell">
+										<h3 class="folio-title">Nemalyze</h3>
+										<span class="folio-types">
+											Projeto desenvolvido para detecção de nematoides através de imagens, utilizando Machine Learning e Deep Learning
+										</span>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	<footer>
+		<div class="row">
+			<div class="col-eight tab-full">
+				<div class="copyright">
+					<span>© Copyright 2020 </span>
+					<ul class="footer-social">
+						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+			</div>
+
+		</div>
+	</footer>
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
 
 </html>
